@@ -68,6 +68,7 @@ public class StepDfn extends BaseClass {
 	@Then("close browser")
 	public void close_browser() {
 
+		System.out.println("Execution finished");
 		driver.quit();
 	}
 	
